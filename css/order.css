@@ -1,0 +1,156 @@
+.order{
+	position: relative;
+}
+.order__wrapper{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	border-radius: 12px;
+	background: #FFF;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+	padding: 16px 10px;
+}
+
+
+.order__wrape-title{
+display:flex;
+justify-content: space-between;
+align-items: center;
+outline: none;
+}
+
+
+.order__wrape-title:after{
+	content: '';
+	position: absolute;
+	outline: 3px solid  transparent;
+inset:0;
+border-radius: 12px;
+pointer-events: none;
+}
+
+.order__wrape-title:focus-visible:after{
+	outline-color: #FFAB08;
+
+
+}
+
+.order__title{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 100%; /* 16px */
+
+}
+
+.order-count{
+display: flex ;
+align-items: center;
+justify-content: center;
+width: 32px;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+height: 16px;
+border-radius: 6px;
+background: #F2F2F3;
+}
+.order_open .order__wrape-title{
+	margin-bottom: 8px;
+}
+.order__wrap__list{
+	display: none;
+}
+.order_open .order__wrap__list{
+	display: block;
+}
+
+.order_list{
+margin-bottom: 13px;
+}
+
+
+.order__item{
+	font-family: Nunito;
+
+display: flex;
+align-items: center;
+gap:6px;
+padding: 10px 0;
+border-bottom: 1px solid #F2F2F3;
+}
+.order__image{
+	width: 64px;
+height: 52px;
+
+border-radius: 8px;
+}
+
+
+
+.order__product{
+flex-grow: 1;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+font-family: Nunito;
+}
+
+.order__product-title{
+	font-weight: 400;
+margin-bottom: 1px;
+}
+.order__product-weight{
+	color: #B1B1B1;
+	margin-bottom: 6px;
+
+}
+
+.order__product-count{
+	
+}
+.order__item:first-child{
+	border-top: 1px solid #F2F2F3;
+
+}
+
+.order__total{
+	display: flex ;
+align-items: center;
+justify-content: center;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 130%;
+	margin-bottom: 19px;
+}
+.order__submit{
+	width: 100%;
+	padding: 9px;
+	color: #fff;
+	border-radius: 8px;
+background: #FF7020;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 100%;
+	margin-bottom: 8px;
+}
+.order__wrap-apeal{
+	display: flex ;
+align-items: center;
+justify-content: space-between;
+}
+
+.order__apeal{
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 32px;
+	background:url(../img/delivery.png) left/24px no-repeat;
+}
+
+.order__close{
+	color: #B1B1B1;
+font-size: 10px;
+font-weight: 400;
+line-height: 14px;
+}

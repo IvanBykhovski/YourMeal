@@ -1,0 +1,116 @@
+.header{
+	background-image: url("data:image/svg+xml,%3Csvg id='header' width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='100' cy='100' r='100' fill='%23FFAB08'/%3E%3C/svg%3E") ;
+	background-size: 611px;
+	background-position: bottom;
+padding: 24px 0 30px;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+}
+
+.header-logo{
+	width: 150px;
+	color: #fff;
+	margin:0 auto 24px;
+}
+
+.header-title-container{
+	padding-bottom: 246px;
+	background: url('../img/pic.png') bottom/227px no-repeat;
+	text-align: center;
+	color: #fff;
+	
+}
+.header-title-text{
+	margin-bottom: 16px;
+	font-size: 30px;
+	font-weight: 800;
+line-height: 120%;
+}
+.header-title{
+	display: block;
+}
+.header-title-text-red{
+	color:#FF5C00;
+}
+.header-appel{
+	line-height: normal;
+	font-size: 12px;
+}
+
+@media (min-width:480px){
+.header{
+	background-size: 1800px;
+	padding-bottom: 44px;
+}
+.header-container{
+	max-width: 480px;
+}
+.header-title-container{
+	padding-bottom: 0;
+	padding-left: 200px;
+	text-align: center;
+	padding-top: 27px;
+	background-position: left;
+	background-size: contain;
+	min-height:195px ;
+}
+}
+
+@media (min-width:768px){
+	.header{
+		background-size: 2540px;
+	}
+	.header-container{
+		max-width: calc(562px + var(--padding-container)*2);
+	}
+.header-title-container{
+	padding-left: 237px;
+	min-height:229px;
+}
+.header-title{
+	font-size: 36px;
+	margin-bottom: 26px;
+
+}
+
+}
+
+@media (min-width:1024px){
+	.header{
+		background-size: 2880px;
+		padding-bottom: 63px;
+		margin-bottom: 40px;
+	}
+	.header-container{
+		max-width: calc(764px + var(--padding-container)*2);
+	}
+.header-title-container{
+	padding-top: 46px;
+	padding-left: 326px;
+	min-height: 326px;
+}
+.header-title{
+	font-size: 50px;
+	margin-bottom: 52px;
+
+}
+.header-appel{
+	font-size: 16px;
+	line-height: 22px;
+}
+}
+
+
+
+@media (min-width:1360px){
+	.header{
+		background-size: 2540px;
+	}
+	.header-container{
+		max-width: calc(784px + var(--padding-container)*2);
+	}
+.header-title-container{
+	padding-left: 346px;
+
+}
+}
