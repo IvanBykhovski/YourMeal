@@ -66,13 +66,13 @@
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 100%;
-	/* 12px */
 	margin-right: 8px;
 
 }
 
 .modal-product-price {
 	text-align: right;
+	width: 100%;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 130%;
@@ -90,6 +90,7 @@
 
 	.modal-product__container {
 		max-width: unset;
+		
 	}
 
 	.modal-product__content {
@@ -121,19 +122,19 @@
 
 	.modal-product__footer {
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
 	}
 
 	.modal-product__add {
 		margin: 0;
-		width: 218px;
 		grid-row: 0;
 	}
 
 	.modal-product__btn {
 		flex-grow: 0;
-		width: 218px;
+		width: 226px;
 	}
 }
 
@@ -153,7 +154,7 @@
 	}
 
 	.modal-product__content {
-		grid-auto-columns: 276 1fr;
+		grid-template-columns: 276px 1fr;
 		gap: 10px 16px;
 		margin-bottom: 38px;
 	}
